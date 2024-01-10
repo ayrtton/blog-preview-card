@@ -1,1 +1,10 @@
 @import './config';
+
+body {
+    font-family: 'Figtree';
+    background-color: $yellow;
+}
+
+main {
+    background-color: $white;
+}
