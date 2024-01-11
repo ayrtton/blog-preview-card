@@ -11,5 +11,22 @@ body {
 }
 
 main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+#card {
   background-color: hsl(0, 0%, 100%);
+  height: 80%;
+  width: 30%;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 10vh;
 }/*# sourceMappingURL=main.css.map */

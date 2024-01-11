@@ -1,4 +1,4 @@
-@import './config';
+@import './config', './mixins';
 
 body {
     font-family: 'Figtree';
@@ -6,5 +6,18 @@ body {
 }
 
 main {
+    @include flexbox;
+    height: 90vh;
+}
+
+#card {
     background-color: $white;
+    height: 80%;
+    width: 30%;
+}
+
+footer {
+    @include flexbox;
+    text-align: center;
+    height: 10vh;
 }
