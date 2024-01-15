@@ -9,7 +9,7 @@ function Card() {
                     <img src={Illustration} alt="" srcSet="" />
                 </div>
                 <div id="details">
-                    Learning
+                    <div className="badge">Learning</div>
                     Published 21 Dec 2023
                 </div>
                 <div id="content">
