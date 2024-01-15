@@ -1,0 +1,17 @@
+@import './mixins';
+
+@media (min-width: 2500px) {
+    @include font_sizes(3.2rem, 2.1rem);
+}
+
+@media (max-width: 2500px) {
+    @include font_sizes(2.7rem, 1.75rem);
+}
+
+@media (max-width: 2000px) {
+    @include font_sizes(2rem, 1.2rem);
+}
+
+@media (max-width: 1500px) {
+    @include font_sizes(1.5rem, 1rem);
+}
