@@ -15,3 +15,7 @@
 @media (max-width: 1500px) {
     @include font_sizes(1.5rem, 1rem);
 }
+
+@media (max-width: 1250px) {
+    @include font_sizes(1.35rem, .9rem);
+}

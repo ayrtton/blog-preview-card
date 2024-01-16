@@ -37,6 +37,14 @@
     font-size: 1rem;
   }
 }
+@media (max-width: 1250px) {
+  h1 {
+    font-size: 1.35rem;
+  }
+  #details, #author, p, footer {
+    font-size: 0.9rem;
+  }
+}
 body {
   font-family: "Figtree";
   background-color: hsl(47, 88%, 63%);
@@ -90,6 +98,13 @@ main {
   flex-direction: column;
   gap: 2vh;
 }
+#card #content h1 {
+  transition: 0.7s;
+}
+#card #content h1:hover {
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
+}
 #card #content p {
   color: hsl(0, 0%, 50%);
 }
@@ -110,4 +125,11 @@ footer {
   justify-content: center;
   text-align: center;
   height: 10vh;
+}
+footer a {
+  text-decoration: none;
+  transition: 0.7s;
+}
+footer a:hover {
+  color: hsl(0, 0%, 100%);
 }/*# sourceMappingURL=main.css.map */

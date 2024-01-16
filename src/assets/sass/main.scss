@@ -53,6 +53,15 @@ main {
         flex-direction: column;
         gap: 2vh;
 
+        h1 {
+            transition: .7s;
+
+            &:hover {
+                color: $yellow;
+                cursor: pointer;
+            }
+        }
+
         p {
             color: $grey;
         }
@@ -75,4 +84,13 @@ footer {
     @include flexbox;
     text-align: center;
     height: 10vh;
+
+    a {
+        text-decoration: none;
+        transition: .7s;
+
+        &:hover {
+            color: $white;
+        }
+    }
 }
