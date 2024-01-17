@@ -19,3 +19,30 @@
 @media (max-width: 1250px) {
     @include font_sizes(1.35rem, .9rem);
 }
+
+@media (max-width: 1000px) {
+    @include font_sizes(1.1rem, .8rem);
+}
+
+@media (max-width: 850px) {
+    main {
+        #card {
+            width: 85%;
+            border-radius: 4.5vw;
+            padding: 5vw;
+
+            #image {
+                border-radius: 2.5vw;
+            }
+
+            #details .badge {
+                padding: 1vh 2.5vw;
+                border-radius: 1.2vw;
+            }
+
+            #author {
+                gap: 2.5vw;
+            }
+        }
+    }
+}
