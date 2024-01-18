@@ -25,6 +25,8 @@
 }
 
 @media (max-width: 850px) {
+    @include font_sizes(1.4rem, 1rem);
+
     main {
         #card {
             width: 85%;
@@ -38,6 +40,10 @@
             #details .badge {
                 padding: 1vh 2.5vw;
                 border-radius: 1.2vw;
+            }
+
+            #content p {
+                line-height: 1.5;
             }
 
             #author {

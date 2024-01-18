@@ -54,6 +54,12 @@
   }
 }
 @media (max-width: 850px) {
+  h1 {
+    font-size: 1.4rem;
+  }
+  #details, #author, p, footer {
+    font-size: 1rem;
+  }
   main #card {
     width: 85%;
     border-radius: 4.5vw;
@@ -65,6 +71,9 @@
   main #card #details .badge {
     padding: 1vh 2.5vw;
     border-radius: 1.2vw;
+  }
+  main #card #content p {
+    line-height: 1.5;
   }
   main #card #author {
     gap: 2.5vw;
